@@ -1,0 +1,85 @@
+
+
+
+body{
+    background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-padrinan-19670.jpg&fm=jpg');
+     background-color: transparent;
+}
+a{ color: #1aad06; }
+a:hover{ text-decoration: underline; }
+#Menu h2{
+
+    background-color: rgb(110, 175, 187);
+    
+  text-align: center;
+  color: rgb(36, 0, 243);    
+    
+}
+
+#Menu a {
+  display: block;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+#Menu a:hover{
+text-decoration: underline;
+color: rgb(255, 0, 0);
+}
+
+h2{
+    color: rgb(36, 0, 243);
+    text-align: Center;
+}
+
+#img{
+    border: 10px; 
+    border-color: rgb(221, 139, 139);
+   
+}
+#JobTable{
+    
+    background-color: rgb(185, 230, 241);
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+}
+#education li::marker{
+ color: rgb(3, 158, 248);
+
+}
+#CSProjects li::marker{
+    color: rgb(3, 158, 248);
+}
+
+#CSProjects li, #likes li{
+    text-align: center;
+}
+
+.panel{
+  padding: 6px;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+p, p1, p2, p3, p4, p6{ margin: 8px auto; max-width: 900px; text-align: center; }
+span{ font-weight: 600; }
+#tbl1{
+    margin-left: auto;
+    margin-right: auto;
+background-color: rgb(231, 247, 2);
+    text-align: center;
+
+}
+
+#web p {
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
