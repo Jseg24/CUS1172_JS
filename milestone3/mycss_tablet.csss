@@ -1,0 +1,80 @@
+body{
+  background-color: Grey;
+
+ 
+  color: #111;
+}
+a{ color: #07ce28; }
+a:hover{ text-decoration: underline; }
+
+#Menu h2{
+  background-color: rgb(110, 175, 187);
+  text-align: center;
+  color: rgb(36, 0, 243);
+  margin: 0 0 8px;
+  padding: 8px 0;
+}
+#Menu a{
+  display: block;          
+  text-align: center;
+  color: #000;
+  
+  font-size: 18px;
+ 
+  margin: 6px 16px;
+  background: rgba(255,255,255,.85);
+  border-radius: 8px;
+}
+#Menu a:hover, #Menu a:focus-visible{ text-decoration: underline; color: rgb(0, 255, 34);}
+
+
+h2{ color: rgb(213, 236, 0); text-align: center; }
+
+
+#img{
+  display: block;
+  height: auto;
+  border: 10px solid rgb(22, 0, 0);
+  border-radius: 8px;
+}
+
+.panel{
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+
+#JobTable{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px auto;
+  background: #2d7047;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+#CSProjects li, #likes li{
+    text-align: center;
+}
+#JobTable th, #JobTable td{
+  border: 1px solid #0047d4;
+  padding: 10px;
+}
+#JobTable thead th{ background:#f3f4f6; }
+p, p1, p2, p3, p4, p6 { margin: 8px auto; max-width: 900px; text-align: center; }
+
+#education li{
+ text-align: center;
+}
+#CSProjects li::marker{ color: rgb(46, 199, 0); }
+#tbl1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    text-align: center;
+}
+#web p {
+    text-align: center;
+}
+ 
+    .highlight{ background: #00a9dd; color: #fff; padding: .1rem .4rem; border-radius: .25rem; }
+    .highlight1{ background: #0f00dd; color: #fff; padding: .1rem .4rem; border-radius: .25rem; }
